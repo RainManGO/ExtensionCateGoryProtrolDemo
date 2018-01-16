@@ -10,4 +10,10 @@
 
 @interface Person ()
 
+@property(nonatomic,copy)NSString * friendName;
+
+-(void)logAge;
+
+-(void)Eat;
+
 @end

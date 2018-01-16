@@ -13,6 +13,8 @@
 		18C1C0261FE2544B008ABBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0251FE2544B008ABBDE /* Assets.xcassets */; };
 		18C1C0291FE2544B008ABBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0271FE2544B008ABBDE /* LaunchScreen.storyboard */; };
 		18C1C02C1FE2544B008ABBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C02B1FE2544B008ABBDE /* main.m */; };
+		18C1C03A1FE254FA008ABBDE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C0391FE254FA008ABBDE /* Person.m */; };
+		18C1C03D1FE25530008ABBDE /* Person+Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C03C1FE25530008ABBDE /* Person+Run.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,12 @@
 		18C1C0281FE2544B008ABBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C1C02A1FE2544B008ABBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C1C02B1FE2544B008ABBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C1C0381FE254FA008ABBDE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18C1C0391FE254FA008ABBDE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18C1C03B1FE25530008ABBDE /* Person+Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Run.h"; sourceTree = "<group>"; };
+		18C1C03C1FE25530008ABBDE /* Person+Run.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Run.m"; sourceTree = "<group>"; };
+		18C1C03E1FE257C3008ABBDE /* Person+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Eat.h"; sourceTree = "<group>"; };
+		18C1C03F1FE25A99008ABBDE /* Study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Study.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		18C1C01B1FE2544B008ABBDE /* ExtensionCateGoryProtrolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18C1C0361FE254C3008ABBDE /* CoreClass */,
+				18C1C0341FE25485008ABBDE /* Protrol */,
+				18C1C0331FE25479008ABBDE /* Category */,
+				18C1C0321FE2545A008ABBDE /* Extension */,
 				18C1C01C1FE2544B008ABBDE /* AppDelegate.h */,
 				18C1C01D1FE2544B008ABBDE /* AppDelegate.m */,
 				18C1C01F1FE2544B008ABBDE /* ViewController.h */,
@@ -69,6 +81,40 @@
 				18C1C02B1FE2544B008ABBDE /* main.m */,
 			);
 			path = ExtensionCateGoryProtrolDemo;
+			sourceTree = "<group>";
+		};
+		18C1C0321FE2545A008ABBDE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C03E1FE257C3008ABBDE /* Person+Eat.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18C1C0331FE25479008ABBDE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C03B1FE25530008ABBDE /* Person+Run.h */,
+				18C1C03C1FE25530008ABBDE /* Person+Run.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18C1C0341FE25485008ABBDE /* Protrol */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C03F1FE25A99008ABBDE /* Study.h */,
+			);
+			path = Protrol;
+			sourceTree = "<group>";
+		};
+		18C1C0361FE254C3008ABBDE /* CoreClass */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C0381FE254FA008ABBDE /* Person.h */,
+				18C1C0391FE254FA008ABBDE /* Person.m */,
+			);
+			path = CoreClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C1C03D1FE25530008ABBDE /* Person+Run.m in Sources */,
 				18C1C0211FE2544B008ABBDE /* ViewController.m in Sources */,
 				18C1C02C1FE2544B008ABBDE /* main.m in Sources */,
+				18C1C03A1FE254FA008ABBDE /* Person.m in Sources */,
 				18C1C01E1FE2544B008ABBDE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Person+Run.h"
+#import "Extension/Person+Eat.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Person  *  Mryang  = [Person new];
+    Mryang.name =  @"Mryang";
+    Mryang.friendName =@"MrsLu";
+    NSLog(@"%@",Mryang.name);
+    NSLog(@"%@",Mryang.friendName);
+    
+    [Mryang logAge];
+    [Mryang Run];
+    [Mryang Eat];
+    [Mryang Study];
 }
+
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

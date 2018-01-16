@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Study.h"
 
-@interface Person : NSObject
+@interface Person : NSObject<Study>
 
 @end

@@ -10,4 +10,8 @@
 
 @interface Person (Run)
 
+@property(nonatomic,strong)NSString * name;
+
+-(void)Run;
+
 @end

@@ -10,4 +10,6 @@
 
 @protocol Study <NSObject>
 
+-(void)Study;
+
 @end
